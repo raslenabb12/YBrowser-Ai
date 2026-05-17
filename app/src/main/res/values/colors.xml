@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+        <!-- Dark Mode Palette -->
+    <color name="browser_dark_background">#121212</color> <!-- Main background before a web page loads -->
+    <color name="browser_dark_surface">#1F1F1F</color> <!-- Top URL Toolbar and Bottom Nav backgrounds -->
+    <color name="browser_dark_surface_variant">#2E2E2E</color> <!-- The actual rounded URL input box -->
+
+    <color name="browser_dark_primary">#8AB4F8</color> <!-- Accent blue: Loading bar, active tabs -->
+    <color name="browser_dark_secondary">#81C995</color> <!-- Secondary accent: Secure HTTPS padlock icon -->
+
+    <color name="browser_dark_text_primary">#E8EAED</color> <!-- Standard text -->
+    <color name="browser_dark_text_secondary">#9AA0A6</color> <!-- "Search or type URL" hint text -->
+
+    <color name="browser_dark_divider">#3C4043</color> <!-- Separator lines in menus -->
+</resources>

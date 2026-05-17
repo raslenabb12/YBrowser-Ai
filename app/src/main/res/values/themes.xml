@@ -1,0 +1,75 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.YBrowser" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#7C8391</item> <!-- Accent blue -->
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#6C63FF</item> <!-- Soft purple hint -->
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorSurface">#252A2E</item>
+        <item name="colorOnBackground">#EAEAEA</item>
+        <item name="colorOnSurface">#F5F5F5</item>
+
+        <!-- Status & Navigation bars -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:navigationBarColor">#1f2326</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Custom text appearance -->
+<!--        <item name="android:fontFamily">@font/montserrat_medium</item>-->
+        <item name="textAppearanceHeadlineSmall">@style/TextTitle</item>
+        <item name="textAppearanceBodyMedium">@style/TextBody</item>
+
+        <!-- Button + EditText rounded style -->
+        <item name="materialButtonStyle">@style/RoundedButton</item>
+        <item name="editTextStyle">@style/RoundedEditText</item>
+
+        <!-- Disable default action bar -->
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="WhiteSearchViewTheme" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorHint">#888888</item>
+        <item name="navigationIconTint">@null</item>
+
+    </style>
+
+
+    <!-- Headline text -->
+    <style name="TextTitle" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+<!--        <item name="android:fontFamily">@font/montserrat_semibold</item>-->
+    </style>
+
+    <!-- Body text -->
+    <style name="TextBody" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:textColor">#CCCCCC</item>
+        <item name="android:textSize">15sp</item>
+<!--        <item name="android:fontFamily">@font/montserrat_medium</item>-->
+    </style>
+
+    <!-- Rounded Buttons -->
+    <style name="RoundedButton" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">#2D89FF</item>
+        <item name="android:textColor">#FFFFFF</item>
+<!--        <item name="android:fontFamily">@font/montserrat_semibold</item>-->
+    </style>
+
+    <!-- Rounded EditText -->
+    <style name="RoundedEditText" parent="Widget.Material3.TextInputLayout.FilledBox.Dense">
+        <item name="boxBackgroundMode">filled</item>
+        <item name="boxCornerRadiusTopStart">16dp</item>
+        <item name="boxCornerRadiusTopEnd">16dp</item>
+        <item name="boxCornerRadiusBottomStart">16dp</item>
+        <item name="boxCornerRadiusBottomEnd">16dp</item>
+        <item name="boxBackgroundColor">#2A2F33</item>
+        <item name="hintTextColor">#9CA3AF</item>
+        <item name="android:textColorHint">#9CA3AF</item>
+    </style>
+
+
+    <style name="Theme.YBrowser" parent="Base.Theme.YBrowser" />
+</resources>
