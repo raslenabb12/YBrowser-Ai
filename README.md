@@ -83,7 +83,7 @@ the UI from freezing.
 ## Installation & Build
 
 1.  Clone the repository:
-    git clone https://github.com/YourUsername/YBrowser-AI.git
+    git clone https://github.com/raslenabb12/YBrowser-AI.git
 2.  Open the project in Android Studio.
 3.  Ensure the ad_blocker_quant.tflite model is present in the
     app/src/main/assets/ directory.
