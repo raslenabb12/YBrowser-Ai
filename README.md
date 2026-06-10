@@ -11,6 +11,14 @@ YBrowser uses a Multi-Modal Neural Network (TFLite) to mathematically predict if
 a network request is an ad or a tracker in real-time, executing in under 2
 milliseconds per request.
 
+---
+
+## Screenshots
+|<img src="images/s_1.jpg" alt="Screenshot 1" width="250"/>|<img src="images/s_2.jpg" alt="Screenshot 2" width="250"/>|
+|:---:|:---:|
+|OFF|ON|
+---
+
 ## Abstract: The Problem with Traditional Ad Blockers
 
 Traditional ad blockers rely on static lists (e.g., ||ads.example.com^). This
